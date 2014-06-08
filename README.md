@@ -1,3 +1,20 @@
+## This is 'Project 1" for the Coursera Exploratory Data Analysis course.
+
+The assignment was to plot four graphs describing elements of the electrical power 
+consumption dataset using supplied figures as templates.
+
+For complete instructions see 'Project 1 Instructions' below. The four plots we were 
+to duplicate are located in the "figure" file.
+
+For each of the four plots, we were instructed to submit an .R script file and a .png 
+file of the plot.
+
+I have included two additional files:
+* Downloading_Electric_power_consumption_file.html
+* Estimated_memory_usage_Electrical_power_consumption_file.html
+
+## Project 1 Instructions
+
 ## Introduction
 
 This assignment uses data from
