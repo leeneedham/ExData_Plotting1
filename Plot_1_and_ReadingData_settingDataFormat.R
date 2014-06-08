@@ -55,8 +55,8 @@ data <- within(data, DateTime <- paste(Date, Time, sep = " "))
 
 # Change the Date column to the "Date" format
 data$Date <- as.Date(data$Date, format = "%d/%m/%Y")
-# Change the DateTime column to the POSIXlt format using the "strptime" function
-data$DateTime <- strptime(data2$DateTime, format = "%d/%m/%Y %H:%M:%S")
+# Change the DateTime column to the POSIXcT format using the "strptime" function
+data$DateTime <- as.POSIXct(strptime(data2$DateTime, format = "%d/%m/%Y %H:%M:%S"))
 # Use lapply to change columns 3:9 to numeric class
 cols <- c(3:9)
 data[, cols] <- lapply(cols, function(x) as.numeric(data[, x]))
